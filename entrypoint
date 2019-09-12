@@ -19,5 +19,5 @@ if [ -f "${CA_CERTIFICATES_PATH}" ]; then
 fi
 
 # launch gitlab-runner passing all arguments
-exec /usr/bin/gitlab-runner "$@"
+exec gitlab-runner "$@"
 
